@@ -1,4 +1,11 @@
+// root or other variables
 @import "./variables.scss";
+
+// fonts
+@import "./fonts.scss";
+
+// generaliz styling
+@import "./general.scss";
 
 // pages
 @import "./pages/home.scss";
@@ -6,6 +13,12 @@
 // layouts
 @import "./layouts/header.scss";
 @import "./layouts/footer.scss";
+@import "./layouts/services.scss";
+@import "./layouts/testimonial.scss";
 
 // components
 @import "./components/card.scss";
+
+// responsive styling
+@import "./responsive.scss";
+

@@ -1,6 +1,24 @@
+.wrapper {
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+/* ...Custom Content Always... */
+
+/* ........NAV...START........*/
+
+a {
+  color: #000;
+  /* font-family: var(--font-family); */
+}
+
+/* header */
+
 .header {
-  padding: 15px 0;
-  background: rgb(0 0 0 / 87%);
+  padding: 10px 0;
+  background: #000;
   width: 100%;
   z-index: 3;
   position: absolute;
@@ -29,7 +47,7 @@
 .header .logo {
   display: block;
   float: left;
-  padding: 0px 20px 10px 10px;
+  /* padding: 0px 20px 10px 10px; */
 }
 .header .logo img {
   width: 155px;
@@ -40,6 +58,8 @@
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+  text-align: center;
+  margin-top: 12px;
 }
 
 /* menu icon */
@@ -54,7 +74,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #ffffff;
+  background: #fff;
   display: block;
   height: 2px;
   position: relative;
@@ -64,7 +84,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #ffffff;
+  background: #fff;
   content: "";
   display: block;
   height: 100%;
@@ -110,19 +130,47 @@
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
+.row-1-col-2 {
+  display: inline-block;
+  padding-top: 195px;
+  padding-bottom: 175px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.row-1-col-2 h2,
+p {
+  font-size: 35px;
+  color: #ffffff;
+  padding: 0px 0;
+  font-weight: 400;
+  font-family: var(--sansarif);
+}
+
+.row-1-col-2 p {
+  font-size: 18px;
+  font-family: var(--sansarif);
+}
+
+.row-1-col-2 a {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: none;
+  display: inline-block;
+  margin: 10px 0;
+  transition: linear all 0.2s;
+  font-weight: 500;
+  font-family: var(--sansarif);
+  border: 3px solid #8c8ca5;
+}
+
+.row-1-col-2 a:hover {
+  color: #f4f4f4;
+  background: var(--light-gray);
+}
+.row-1 {
+  background: url(../../assets/images/background-1.png) no-repeat;
+  background-size: cover;
 }
