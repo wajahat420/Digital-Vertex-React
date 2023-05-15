@@ -1,4 +1,5 @@
 import { Instagram, Facebook } from '@material-ui/icons';
+import Pinterest from '../../assets/images/Pinterest.png'
 
 export default function Footer() {
   return (
@@ -74,6 +75,7 @@ export default function Footer() {
             </li>
             <li>
               <a class="ancthree" href="#">
+                <img src={Pinterest}/>
               </a>
             </li>
           </ul>
