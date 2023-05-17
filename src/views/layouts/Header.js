@@ -1,33 +1,34 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <div>
       <header className="header">
         <div className="wrapper">
-          <a href="" className="logo">
+          <Link to="" className="logo">
             <img src={logo} alt="logo" />
-          </a>
+          </Link>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" for="menu-btn">
             <span className="navicon"></span>
           </label>
           <ul className="menu">
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <Link href="#">Contact</Link>
             </li>
             <li>
-              <a href="#">Our Services</a>
+              <Link href="#">Our Services</Link>
             </li>
             <li>
-              <a href="#">Testimonial</a>
+              <Link href="#">Testimonial</Link>
             </li>
           </ul>
         </div>

@@ -3,7 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./views/pages/Home";
 import About from "./views/pages/About";
 import Contact from "./views/pages/Contact";
-
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 const router = createBrowserRouter([
   {
     path: "/",

@@ -81,7 +81,7 @@
   }
   }
 
-@media (min-width: 48em) {
+@media (min-width: 990px) {
   .header li {
     float: left;
   }
@@ -102,9 +102,18 @@
       padding: 0 20px;
       display: block;
   }
+
   .row-4-col1 img{
       display: none;
   }
+  .slideButton .slick-arrow {
+    display: none !important;
+  }
+  .row5 {
+    margin: 0px 0px 0 0px;
+    display: grid;
+    padding-left: 20px;
+}
   .row-4-col1 h2{
       display: none;
   }
