@@ -5,6 +5,7 @@ import Cards from "../layouts/Cards";
 import Services from "../layouts/Services";
 import Testimonial from "../layouts/Testimonial";
 import Footer from "../layouts/Footer";
+import { motion } from "framer-motion";
 
 function Home() {
   return (

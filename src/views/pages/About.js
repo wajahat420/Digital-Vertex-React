@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../layouts/Footer";
 import Header from "../layouts/Header";
 import "../../scss/pages/About/about.scss";
-import Banner from "../../assets/images/About banner.png";
+// import Banner from "../../assets/images/About banner.png";
 
 function About() {
   return (
@@ -69,9 +69,7 @@ function About() {
                 experience in providing mobil
               </li>
             </ul>
-            <div class="abt_img">
-              <img src={Banner} alt="" />
-            </div>
+            <div class="abt_img">{/* <img src={Banner} alt="" /> */}</div>
           </div>
         </div>
       </div>

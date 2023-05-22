@@ -17,11 +17,12 @@
   --large-font: 20px;
   --border-color: #8c8ca580;
 }
-.wrapper {
+.about_us .wrapper {
   max-width: 1280px;
   width: 100%;
   height: auto;
   margin: auto;
+  padding: 75px 0px;
 }
 header,
 footer,
@@ -87,7 +88,7 @@ content {
 }
 .abthead h1 {
   font-weight: 800;
-  font-family: "Montserrat";
+  // font-family: "Montserrat";
   font-size: 50px;
   padding: 0px 30px;
   margin-bottom: 20px;
