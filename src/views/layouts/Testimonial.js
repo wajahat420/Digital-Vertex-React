@@ -11,7 +11,7 @@ export default function Testimonial(props) {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 1800,
+    autoplaySpeed: 2200,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
