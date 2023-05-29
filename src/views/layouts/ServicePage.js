@@ -8,16 +8,37 @@ import Footer from "./Footer";
 
 export default function ServicePage() {
   const settings = {
-    // centerMode: true,
     dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 500,
+    infinite: false,
     autoplay: true,
+    arrows: false,
+    speed: 500,
     autoplaySpeed: 2200,
-    slidesToShow: 3,
     slidesToScroll: 1,
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 1250,
+        settings: {
+          slidesToShow: 3
+        },
+      },
+      {
+        breakpoint: 950,
+        settings: {
+          slidesToShow: 2
+        },
+      },
+      {
+        breakpoint: 650,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+    ],
   };
+
+  
   return (
     <div>
       <div className="header">
@@ -42,6 +63,18 @@ export default function ServicePage() {
             <h2>Most Popular in Writing & Translation</h2>
           </div>
           <Slider {...settings} className="slider-setting-service">
+            <div class="Service-card">
+              <div class="card-inner">
+                <img src={slip} aslt="image" />
+                <p>Articles & Blog Posts</p>
+              </div>
+            </div>
+            <div class="Service-card">
+              <div class="card-inner">
+                <img src={slip} aslt="image" />
+                <p>Articles & Blog Posts</p>
+              </div>
+            </div>
             <div class="Service-card">
               <div class="card-inner">
                 <img src={slip} aslt="image" />
