@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div>
       <section class="row-1">
-        <div class="wrapper">
+        <div class="wrapper1">
           <div class="row-1-col-2">
             <h2>Every IT Solution here </h2>
             <p>

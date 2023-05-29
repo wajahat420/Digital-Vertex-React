@@ -1,57 +1,55 @@
 .wrapper {
-        max-width: 1300px;
-        width: 100%;
-        height: auto;
-        margin: auto;
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 /* ...Custom Content Always... */
 .row-2 {
-        padding: 90px 0;
-        display: flex;
+  padding: 90px 0;
+  display: flex;
 }
 
 .card {
-        width: 300px;
-        box-shadow: 0px 0 10px 3px #e4e4e4;
-        padding: 50px 15px;
-        float: left;
-        margin: 10px 25px 0px 20px;
-        transition: linear all 0.2s;
-        border-radius: 5px;
+  width: 300px;
+  box-shadow: 0px 0 10px 3px #e4e4e4;
+  padding: 50px 15px;
+  float: left;
+  margin: 10px 25px 0px 20px;
+  transition: linear all 0.2s;
+  border-radius: 5px;
 }
 
 .card:hover {
-        /* border-radius: 5px;
+  /* border-radius: 5px;
             box-shadow: 0 0 5px #8c8ca580, 0 0 10px #8c8ca580, 0 0 10px #8c8ca580, 0 0 13px #8c8ca580 */
 }
 
 .inn-card {
-        text-align: center;
+  text-align: center;
 }
 
 .inn-card svg {
-        font-size: 40px;
-        color: #0072bb;
-
+  font-size: 40px;
+  color: #0d4483;
 }
 
-
 .inn-card .i {
-        font-size: 35px;
-        color: #0072bb;
+  font-size: 35px;
+  color: #12365ee0;
 }
 
 .inn-card h2 {
-        font-size: 25px;
-        color: #0072bb;
-        font-family: var(--sansarif);
-        padding: 10px 0 0 0;
+  font-size: 25px;
+  color: #12365ee0;
+  font-family: var(--sansarif);
+  padding: 10px 0 0 0;
 }
 
 .inn-card p {
-        font-size: 18px;
-        color: #000;
-        line-height: 30px;
-        font-family: var(--sansarif);
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+  font-family: var(--sansarif);
 }
