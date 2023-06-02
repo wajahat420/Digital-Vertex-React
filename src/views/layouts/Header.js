@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
+import Testimonial from "../layouts/Testimonial";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -22,13 +23,13 @@ export default function Header() {
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link href="#">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
               <Link to="/service">Our Services</Link>
             </li>
             <li>
-              <Link href="#">Testimonial</Link>
+              <Link to="/testimonial">Testimonial</Link>
             </li>
           </ul>
         </div>

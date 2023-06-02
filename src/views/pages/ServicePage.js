@@ -1,15 +1,15 @@
 import React from "react";
-import "../../scss/layouts/service-page.scss";
+// import "../../scss/layouts/service-page.scss";
 import slip from "../../assets/images/slip-img.jpg";
 import blog from "../../assets/images/what-is-a-blog-1.png";
 import Slider from "react-slick";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../layouts/Header";
+import Footer from "../layouts/Footer";
 
 export default function ServicePage() {
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     autoplay: true,
     arrows: false,
     speed: 500,

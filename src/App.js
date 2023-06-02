@@ -5,7 +5,8 @@ import About from "./views/pages/About";
 import Contact from "./views/pages/Contact";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ServicePage from "./views/layouts/ServicePage";
+import ServicePage from "./views/pages/ServicePage";
+import Testimonial from "./views/layouts/Testimonial";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/testimonial",
+    element: <Testimonial />,
   },
   {
     path: "/service",
