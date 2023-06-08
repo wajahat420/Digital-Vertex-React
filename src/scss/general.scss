@@ -8,3 +8,21 @@
         box-sizing: border-box;
         font-family: Arial;
 }
+
+a {
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+}
+
+header,
+footer,
+nav,
+section,
+content {
+  width: 100%;
+  display: inline-block;
+}
+
+.heading {
+        color: var(--blue);
+}

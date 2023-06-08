@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
-import Testimonial from "../layouts/Testimonial";
 import { Link } from "react-router-dom";
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
 export default function Header() {
   return (
@@ -23,13 +23,10 @@ export default function Header() {
               <Link to="/about">About Us</Link>
             </li>
             <li>
-              <Link to="/">Contact</Link>
+              <Link to="/services">Our Services</Link>
             </li>
             <li>
-              <Link to="/service">Our Services</Link>
-            </li>
-            <li>
-              <Link to="/testimonial">Testimonial</Link>
+              <a href="https://wa.me/+923367211005" > <WhatsAppIcon /> </a>
             </li>
           </ul>
         </div>

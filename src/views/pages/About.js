@@ -1,7 +1,5 @@
-import React from "react";
 import Footer from "../layouts/Footer";
 import Header from "../layouts/Header";
-// import Banner from "../../assets/images/About banner.png";
 
 function About() {
   return (
@@ -18,7 +16,7 @@ function About() {
       <div class="About_section">
         <div class="wrapper">
           <div class="About">
-            <h1>Who We Are</h1>
+            <h1 className="heading">Who We Are</h1>
             <p>
               M3 Technologies Pakistan (Private) Limited was established in 2004
               as a joint venture between AKD VENTURE FUNDS LIMITED (under TMT
@@ -35,7 +33,7 @@ function About() {
               variety of Mobile Platforms and technologies such as SMS, MMS,
               IVR, GPRS, 3G, Streaming, Web, WAP, STK and ODP.
             </p>
-            <h1>Our Vision</h1>
+            <h1 className="heading">Our Vision</h1>
             <p>
               With a credible team of young professionals and over 10 years of
               experience in providing mobile solutions within the Asian region,
@@ -43,7 +41,7 @@ function About() {
               continuously providing creative, innovative and practical
               solutions for all channels and purposes.
             </p>
-            <h1>Our Mission</h1>
+            <h1 className="heading" >Our Mission</h1>
             <ul>
               <li>
                 With a credible team of young professionals and over 10 years of
