@@ -154,14 +154,7 @@ p {
   margin: auto;
 }
 
-header,
-footer,
-nav,
-section,
-content {
-  width: 100%;
-  display: inline-block;
-}
+
 .services {
   padding: 70px 0px;
 }
@@ -182,7 +175,7 @@ content {
 }
 .services-text h2 {
   font-size: 30px;
-  color: #333;
+  color: #0d4483;
   font-family: var(--sansarif);
 }
 .services-text p {
